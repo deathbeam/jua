@@ -9,7 +9,7 @@ LOCAL_CPPFLAGS := $(LOCAL_C_INCLUDES:%=-I%) -O2 -Wall -D__ANDROID__ -std=c99 -DF
 LOCAL_LDLIBS := -lm
 LOCAL_ARM_MODE  := arm
  
-LOCAL_SRC_FILES := org.keplerproject.luajava.LuaState.c\
+LOCAL_SRC_FILES := luajava.c\
 	memcpy_wrap.c\
 	lua/lapi.c\
 	lua/lauxlib.c\
