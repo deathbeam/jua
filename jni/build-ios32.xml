@@ -4,7 +4,7 @@
 	<!-- output directory for temporary object files -->
 	<property name="buildDir" value="target/ios32" />
 	<!-- output directory for the shared library -->
-	<property name="libsDir" value="libs/ios32" />
+	<property name="libsDir" value="../libs/ios32" />
 	<!-- the name of the shared library -->
 	<property name="libName" value="libluajava.a"/>
 	<!-- the jni header jniPlatform to use -->

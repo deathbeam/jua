@@ -4,7 +4,7 @@
 	<!-- output directory for temporary object files -->
 	<property name="buildDir" value="target/macosx64" />
 	<!-- output directory for the shared library -->
-	<property name="libsDir" value="libs/macosx64" />
+	<property name="libsDir" value="../libs/macosx64" />
 	<!-- the name of the shared library -->
 	<property name="libName" value="libluajava64.dylib"/>
 	<!-- the jni header jniPlatform to use -->
