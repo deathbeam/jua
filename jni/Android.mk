@@ -41,7 +41,6 @@ LOCAL_SRC_FILES := luajava.c\
   lua/ltablib.c\
   lua/ltm.c\
   lua/lua.c\
-  lua/luac.c\
   lua/lundump.c\
   lua/lutf8lib.c\
   lua/lvm.c\
