@@ -1,4 +1,4 @@
-<project name="luajava-Linux-64" basedir="." default="postcompile">
+<project name="nonlua-Linux-64" basedir="." default="postcompile">
 	<!-- include the environment -->
 	<property environment="env"/>	
 	<!-- output directory for temporary object files -->
