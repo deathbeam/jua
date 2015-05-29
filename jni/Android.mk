@@ -46,8 +46,20 @@ LOCAL_SRC_FILES := memcpy_wrap.c\
   lua/lutf8lib.c\
   lua/lvm.c\
   lua/lzio.c\
+  socket/auxiliar.c\
   socket/buffer.c\
-  socket/socket.c\
-  socket/timeout.c
+  socket/except.c\
+  socket/inet.c\
+  socket/io.c\
+  socket/luasocket.c\
+  socket/mime.c\
+  socket/options.c\
+  socket/select.c\
+  socket/tcp.c\
+  socket/timeout.c\
+  socket/udp.c\
+  socket/unix.c\
+  socket/usocket.c\
+  socket/wsocket.c
 
 include $(BUILD_SHARED_LIBRARY)
