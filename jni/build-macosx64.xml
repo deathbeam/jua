@@ -19,6 +19,7 @@
 	<property name="gcc-opts" value="-c -Wall -O2 -arch x86_64 -DFIXED_POINT -fmessage-length=0 -fPIC -mmacosx-version-min=10.5 -DFT2_BUILD_LIBRARY"/>
 	<fileset id="gcc-files" dir="./">
 		<exclude name="target/"/>
+    <exclude name="socket/wsocket.c"/>
     <include name="memcpy_wrap.c"/>
     <include name="lua/*.c"/>
     <include name="socket/*.c"/>

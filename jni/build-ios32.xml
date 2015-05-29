@@ -21,6 +21,7 @@
 	<property name="gcc-opts" value="-c -Wall -O2 -miphoneos-version-min=5.1 -DFT2_BUILD_LIBRARY"/>
 	<fileset id="gcc-files" dir="./">
 		<exclude name="target/"/>
+    <exclude name="socket/wsocket.c"/>
     <include name="memcpy_wrap.c"/>
     <include name="lua/*.c"/>
     <include name="socket/*.c"/>

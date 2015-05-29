@@ -19,6 +19,7 @@
 	<property name="gcc-opts" value="-c -Wall -O2 -mfpmath=sse -msse -fmessage-length=0 -m32 -fPIC -std=c99 -DFT2_BUILD_LIBRARY"/>
 	<fileset id="gcc-files" dir="./">
 		<exclude name="target/"/>
+    <exclude name="socket/wsocket.c"/>
     <include name="memcpy_wrap.c"/>
     <include name="lua/*.c"/>
     <include name="socket/*.c"/>

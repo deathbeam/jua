@@ -59,7 +59,6 @@ LOCAL_SRC_FILES := memcpy_wrap.c\
   socket/timeout.c\
   socket/udp.c\
   socket/unix.c\
-  socket/usocket.c\
-  socket/wsocket.c
+  socket/usocket.c
 
 include $(BUILD_SHARED_LIBRARY)
