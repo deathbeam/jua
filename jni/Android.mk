@@ -12,6 +12,7 @@ LOCAL_ARM_MODE  := arm
  
 LOCAL_SRC_FILES := memcpy_wrap.c\
   luajava.c\
+  lsocket.c\
   lua/lapi.c\
   lua/lauxlib.c\
   lua/lbaselib.c\
@@ -46,8 +47,5 @@ LOCAL_SRC_FILES := memcpy_wrap.c\
   lua/lutf8lib.c\
   lua/lvm.c\
   lua/lzio.c\
-  socket/buffer.c\
-  socket/socket.c\
-  socket/timeout.c
 
 include $(BUILD_SHARED_LIBRARY)
