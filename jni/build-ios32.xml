@@ -23,7 +23,7 @@
 		<exclude name="target/"/>
     <include name="memcpy_wrap.c"/>
     <include name="lua/*.c"/>
-    <include name="luasocket/*.c"/>
+    <include name="socket/*.c"/>
     <include name="luajava.c"/>
 	</fileset>
 	
@@ -79,7 +79,7 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 		  <arg value="-Ilua"/>
-      <arg value="-Iluasocket"/>
+      <arg value="-Isocket"/>
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
@@ -117,7 +117,7 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 			<arg value="-Ilua"/>
-      <arg value="-Iluasocket"/>
+      <arg value="-Isocket"/>
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
@@ -155,7 +155,7 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 			<arg value="-Ilua"/>
-      <arg value="-Iluasocket"/>
+      <arg value="-Isocket"/>
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
@@ -193,7 +193,7 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 			<arg value="-Ilua"/>
-      <arg value="-Iluasocket"/>
+      <arg value="-Isocket"/>
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
