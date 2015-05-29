@@ -24,7 +24,6 @@
     <include name="memcpy_wrap.c"/>
     <include name="lua/*.c"/>
     <include name="luajava.c"/>
-    <include name="lsocket.c"/>
   </fileset>
   
   <!-- define g++ compiler, options and files to compile -->

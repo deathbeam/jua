@@ -12,7 +12,6 @@ LOCAL_ARM_MODE  := arm
  
 LOCAL_SRC_FILES := memcpy_wrap.c\
   luajava.c\
-  lsocket.c\
   lua/lapi.c\
   lua/lauxlib.c\
   lua/lbaselib.c\
