@@ -52,6 +52,7 @@ LOCAL_SRC_FILES := memcpy_wrap.c\
   socket/inet.c\
   socket/io.c\
   socket/luasocket.c\
+  socket/luasocketw.c\
   socket/mime.c\
   socket/options.c\
   socket/select.c\
