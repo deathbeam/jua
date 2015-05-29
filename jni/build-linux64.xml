@@ -6,7 +6,7 @@
 	<!-- output directory for the shared library -->
 	<property name="libsDir" value="../libs/linux64" />
 	<!-- the name of the shared library -->
-	<property name="libName" value="libluajava64.so"/>
+	<property name="libName" value="libnonlua64.so"/>
 	<!-- the jni header jniPlatform to use -->
 	<property name="jniPlatform" value="linux"/>
 	<!-- the compilerPrefix for the C & C++ compilers -->
@@ -19,7 +19,9 @@
 	<property name="gcc-opts" value="-c -Wall -O2 -mfpmath=sse -msse -fmessage-length=0 -m64 -fPIC -std=c99 -DFT2_BUILD_LIBRARY"/>
 	<fileset id="gcc-files" dir="./">
 		<exclude name="target/"/>
+    <include name="memcpy_wrap.c"/>
     <include name="lua/*.c"/>
+    <include name="luasocket/*.c"/>
     <include name="luajava.c"/>
 	</fileset>
 	
@@ -83,7 +85,8 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-						<arg value="-Ilua"/>
+			<arg value="-Ilua"/>
+      <arg value="-Iluasocket"/>
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
