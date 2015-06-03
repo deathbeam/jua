@@ -44,6 +44,7 @@ LOCAL_SRC_FILES := io.nondev.nonlua.Lua.cpp\
 	lua/lutf8lib.c\
 	lua/lvm.c\
 	lua/lzio.c\
-	memcpy_wrap.c
+	memcpy_wrap.c\
+	nonlua.cpp
  
 include $(BUILD_SHARED_LIBRARY)
