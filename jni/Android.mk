@@ -9,7 +9,8 @@ LOCAL_CPPFLAGS := $(LOCAL_C_INCLUDES:%=-I%) -O2 -Wall -D__ANDROID__
 LOCAL_LDLIBS := -lm
 LOCAL_ARM_MODE  := arm
  
-LOCAL_SRC_FILES := enet/callbacks.c\
+LOCAL_SRC_FILES := enet.cpp\
+	enet/callbacks.c\
 	enet/compress.c\
 	enet/host.c\
 	enet/list.c\
@@ -18,7 +19,6 @@ LOCAL_SRC_FILES := enet/callbacks.c\
 	enet/protocol.c\
 	enet/unix.c\
 	enet/win32.c\
-	enet.cpp\
 	io.nondev.nonlua.Lua.cpp\
 	lua/lapi.c\
 	lua/lauxlib.c\
@@ -54,6 +54,7 @@ LOCAL_SRC_FILES := enet/callbacks.c\
 	lua/lutf8lib.c\
 	lua/lvm.c\
 	lua/lzio.c\
+	luasocket.cpp\
 	luasocket/auxiliar.c\
 	luasocket/buffer.c\
 	luasocket/except.c\
@@ -69,7 +70,6 @@ LOCAL_SRC_FILES := enet/callbacks.c\
 	luasocket/unix.c\
 	luasocket/usocket.c\
 	luasocket/wsocket.c\
-	luasocket.cpp\
 	memcpy_wrap.c\
 	nonlua.cpp
  
