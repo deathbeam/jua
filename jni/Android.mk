@@ -9,7 +9,17 @@ LOCAL_CPPFLAGS := $(LOCAL_C_INCLUDES:%=-I%) -O2 -Wall -D__ANDROID__
 LOCAL_LDLIBS := -lm
 LOCAL_ARM_MODE  := arm
  
-LOCAL_SRC_FILES := io.nondev.nonlua.Lua.cpp\
+LOCAL_SRC_FILES := enet.cpp\
+	enet/callbacks.c\
+	enet/compress.c\
+	enet/host.c\
+	enet/list.c\
+	enet/packet.c\
+	enet/peer.c\
+	enet/protocol.c\
+	enet/unix.c\
+	enet/win32.c\
+	io.nondev.nonlua.Lua.cpp\
 	lua/lapi.c\
 	lua/lauxlib.c\
 	lua/lbaselib.c\
