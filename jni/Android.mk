@@ -54,6 +54,21 @@ LOCAL_SRC_FILES := enet.cpp\
 	lua/lutf8lib.c\
 	lua/lvm.c\
 	lua/lzio.c\
+	luasocket/auxiliar.c\
+	luasocket/buffer.c\
+	luasocket/except.c\
+	luasocket/inet.c\
+	luasocket/io.c\
+	luasocket/luasocket.c\
+	luasocket/mime.c\
+	luasocket/options.c\
+	luasocket/select.c\
+	luasocket/tcp.c\
+	luasocket/timeout.c\
+	luasocket/udp.c\
+	luasocket/unix.c\
+	luasocket/usocket.c\
+	luasocket/wsocket.c\
 	memcpy_wrap.c\
 	nonlua.cpp
  
