@@ -80,7 +80,9 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-			
+						<arg value="-Ilua"/>
+			<arg value="-Iluasocket"/>
+
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
@@ -95,7 +97,9 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-			
+						<arg value="-Ilua"/>
+			<arg value="-Iluasocket"/>
+
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
@@ -132,7 +136,9 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-			
+						<arg value="-Ilua"/>
+			<arg value="-Iluasocket"/>
+
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
@@ -147,7 +153,9 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-			
+						<arg value="-Ilua"/>
+			<arg value="-Iluasocket"/>
+
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
@@ -184,7 +192,9 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-			
+						<arg value="-Ilua"/>
+			<arg value="-Iluasocket"/>
+
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
@@ -199,7 +209,9 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-			
+						<arg value="-Ilua"/>
+			<arg value="-Iluasocket"/>
+
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
@@ -236,7 +248,9 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-			
+						<arg value="-Ilua"/>
+			<arg value="-Iluasocket"/>
+
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
@@ -251,7 +265,9 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-			
+						<arg value="-Ilua"/>
+			<arg value="-Iluasocket"/>
+
 			<srcfile/>
 			<arg value="-o"/>
 			<targetfile/>
