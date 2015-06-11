@@ -91,7 +91,8 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-						<arg value="-Ilua"/>
+						<arg value="-Inonlua"/>
+			<arg value="-Ilua"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
@@ -108,7 +109,8 @@
 			<arg value="-Ijni-headers"/>
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
-						<arg value="-Ilua"/>
+						<arg value="-Inonlua"/>
+			<arg value="-Ilua"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
