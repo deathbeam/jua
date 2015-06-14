@@ -40,7 +40,7 @@
 	<!-- define linker and options -->
 	<property name="linker" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar"/>
 	<property name="linker-opts" value="rcs"/>
-	<property name="libraries" value=""/>
+	<property name="libraries" value="-lluajit"/>
 	
 	<!-- cleans the build directory, removes all object files and shared libs -->
 	<target name="clean">
