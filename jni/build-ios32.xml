@@ -40,7 +40,7 @@
 	<!-- define linker and options -->
 	<property name="linker" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar"/>
 	<property name="linker-opts" value="rcs"/>
-	<property name="libraries" value="-lluajit"/>
+	<property name="libraries" value="-L./../../../libs/ios32 -lluajit -lSDL2"/>
 	
 	<!-- cleans the build directory, removes all object files and shared libs -->
 	<target name="clean">
@@ -81,7 +81,8 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
-			<arg value="-Ilua"/>
+			<arg value="-Iluajit"/>
+			<arg value="-Isdl"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
@@ -99,7 +100,8 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
-			<arg value="-Ilua"/>
+			<arg value="-Iluajit"/>
+			<arg value="-Isdl"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
@@ -139,7 +141,8 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
-			<arg value="-Ilua"/>
+			<arg value="-Iluajit"/>
+			<arg value="-Isdl"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
@@ -157,7 +160,8 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
-			<arg value="-Ilua"/>
+			<arg value="-Iluajit"/>
+			<arg value="-Isdl"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
@@ -197,7 +201,8 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
-			<arg value="-Ilua"/>
+			<arg value="-Iluajit"/>
+			<arg value="-Isdl"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
@@ -215,7 +220,8 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
-			<arg value="-Ilua"/>
+			<arg value="-Iluajit"/>
+			<arg value="-Isdl"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
@@ -255,7 +261,8 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
-			<arg value="-Ilua"/>
+			<arg value="-Iluajit"/>
+			<arg value="-Isdl"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
@@ -273,7 +280,8 @@
 			<arg value="-Ijni-headers/${jniPlatform}"/>
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
-			<arg value="-Ilua"/>
+			<arg value="-Iluajit"/>
+			<arg value="-Isdl"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
