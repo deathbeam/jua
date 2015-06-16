@@ -9,7 +9,7 @@ include $(PREBUILT_SHARED_LIBRARY)
 include $(CLEAR_VARS)
  
 LOCAL_MODULE    := nonlua
-LOCAL_C_INCLUDES := nonlua luajit sdl luasocket 
+LOCAL_C_INCLUDES := nonlua luajit luasocket 
  
 LOCAL_CFLAGS := $(LOCAL_C_INCLUDES:%=-I%) -O2 -Wall -D__ANDROID__
 LOCAL_CPPFLAGS := $(LOCAL_C_INCLUDES:%=-I%) -O2 -Wall -D__ANDROID__
@@ -36,13 +36,6 @@ LOCAL_SRC_FILES := luasocket/udp.c\
 	nonlua/nljavalib.cpp\
 	nonlua/nlsocklib.cpp\
 	nonlua/nonlua.cpp\
-	io.nondev.nonlua.Lua.cpp\
-	common/video.c\
-	common/surface.c\
-	common/variant.c\
-	common/common.c\
-	common/table.c\
-	common/rwops.c\
-	common/array.c
+	io.nondev.nonlua.Lua.cpp
  
 include $(BUILD_SHARED_LIBRARY)

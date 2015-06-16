@@ -93,7 +93,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Isdl"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
@@ -112,7 +111,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Isdl"/>
 			<arg value="-Iluasocket"/>
 
 			<srcfile/>
