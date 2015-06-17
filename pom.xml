@@ -11,7 +11,7 @@
     <groupId>io.nondev</groupId>
     <artifactId>nonlua</artifactId>
     <version>0.3.0-SNAPSHOT</version>
-    <name>nonlua</name>
+    <name>Nonlua</name>
     <description>LuaJIT for Java on Windows, Mac OS X, Linux, Android and iOS.</description>
 
     <issueManagement>
@@ -149,8 +149,8 @@
                 <configuration>
                     <shadedArtifactAttached>true</shadedArtifactAttached>
                     <transformers>
-                        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                        <mainClass>lua</mainClass>
+                    <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                    <mainClass>build</mainClass>
                     </transformer>
                     </transformers>
                 </configuration>
