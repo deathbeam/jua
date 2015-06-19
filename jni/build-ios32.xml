@@ -82,7 +82,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Iluasocket"/>
 
 			<srcfile/>
 			<arg value="-o"/>
@@ -100,7 +99,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Iluasocket"/>
 
 			<srcfile/>
 			<arg value="-o"/>
@@ -140,7 +138,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Iluasocket"/>
 
 			<srcfile/>
 			<arg value="-o"/>
@@ -158,7 +155,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Iluasocket"/>
 
 			<srcfile/>
 			<arg value="-o"/>
@@ -198,7 +194,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Iluasocket"/>
 
 			<srcfile/>
 			<arg value="-o"/>
@@ -216,7 +211,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Iluasocket"/>
 
 			<srcfile/>
 			<arg value="-o"/>
@@ -256,7 +250,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Iluasocket"/>
 
 			<srcfile/>
 			<arg value="-o"/>
@@ -274,7 +267,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Iluasocket"/>
 
 			<srcfile/>
 			<arg value="-o"/>

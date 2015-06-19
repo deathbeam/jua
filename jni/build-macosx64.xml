@@ -38,7 +38,7 @@
 	<!-- define linker and options -->
 	<property name="linker" value="${compilerPrefix}g++${compilerSuffix}"/>
 	<property name="linker-opts" value="-shared -arch x86_64 -mmacosx-version-min=10.5"/>
-	<property name="libraries" value="-L./../../../libs/macosx64 -lluajit64"/>
+	<property name="libraries" value="-L./../../../libs/macosx64 -lluajit64 "/>
 	
 	<!-- cleans the build directory, removes all object files and shared libs -->
 	<target name="clean">
@@ -93,7 +93,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Iluasocket"/>
 
 			<srcfile/>
 			<arg value="-o"/>
@@ -111,7 +110,6 @@
 			<arg value="-I."/>
 						<arg value="-Inonlua"/>
 			<arg value="-Iluajit"/>
-			<arg value="-Iluasocket"/>
 
 			<srcfile/>
 			<arg value="-o"/>
